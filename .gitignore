@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Node / React
+karnsheet-app/node_modules/
+karnsheet-app/dist/
+karnsheet-app/dist-ssr/
+karnsheet-app/*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+.DS_Store

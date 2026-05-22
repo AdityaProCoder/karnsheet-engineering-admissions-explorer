@@ -1,0 +1,8 @@
+{
+  "name": "karnsheet-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix karnsheet-app",
+    "build": "npm run build --prefix karnsheet-app"
+  }
+}

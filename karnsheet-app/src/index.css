@@ -1,0 +1,5 @@
+/* Minimal reset in index.css, as we use App.css for full styling */
+body {
+  margin: 0;
+  padding: 0;
+}
