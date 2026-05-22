@@ -1,0 +1,10 @@
+{
+  "name": "karnsheet-root",
+  "private": true,
+  "workspaces": [
+    "karnsheet-app"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=karnsheet-app"
+  }
+}
