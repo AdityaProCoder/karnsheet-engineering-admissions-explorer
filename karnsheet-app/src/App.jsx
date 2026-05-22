@@ -15,7 +15,7 @@ export default function App() {
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem('karnsheet-theme');
     if (saved) return saved;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'light'; // Default to light mode
   });
 
   // Apply theme to document element
@@ -25,8 +25,7 @@ export default function App() {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'light' ? 'dark' : 'theme');
-    setTheme(theme === 'light' ? 'dark' : 'light');
+    setTheme(prev => prev === 'light' ? 'dark' : 'light');
   };
 
   // 2. Mutable Cutoff Data state (deep cloned from cutoff.json)
