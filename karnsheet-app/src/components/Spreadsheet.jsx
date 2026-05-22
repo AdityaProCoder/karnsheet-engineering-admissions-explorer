@@ -316,7 +316,7 @@ export default function Spreadsheet({
               onClick={() => setShowColFilter(!showColFilter)}
             >
               <SlidersHorizontal size={14} />
-              <span>Columns Filter ({visibleBranches.length}/{allBranches.length})</span>
+              <span>Course Filter ({visibleBranches.length}/{allBranches.length})</span>
             </button>
             <button 
               className="btn btn-secondary"
@@ -333,7 +333,7 @@ export default function Spreadsheet({
         {showColFilter && (
           <div className="column-filter-panel" style={{ marginTop: '16px' }}>
             <div className="column-panel-header">
-              <h4 style={{ fontSize: '13px', fontWeight: 700 }}>Toggle Branches Columns</h4>
+              <h4 style={{ fontSize: '13px', fontWeight: 700 }}>Toggle Course Columns</h4>
               <div style={{ display: 'flex', gap: '8px' }}>
                 <button className="btn btn-secondary" style={{ padding: '4px 8px', fontSize: '10px' }} onClick={() => applyPreset('all')}>All</button>
                 <button className="btn btn-secondary" style={{ padding: '4px 8px', fontSize: '10px' }} onClick={() => applyPreset('none')}>Clear</button>
@@ -359,10 +359,7 @@ export default function Spreadsheet({
                         [branch]: e.target.checked
                       })}
                     />
-                    <span className={`badge-branch ${code.startsWith('CS') || code.startsWith('IS') || code === 'AI' || code === 'AD' ? 'badge-cse' : code.startsWith('EC') ? 'badge-ece' : 'badge-other'}`} style={{ marginRight: '4px', fontSize: '9px', padding: '1px 4px' }}>
-                      {code}
-                    </span>
-                    <span style={{ textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap' }} title={branch}>
+                    <span style={{ textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap', fontSize: '12px' }} title={branch}>
                       {name}
                     </span>
                   </label>
