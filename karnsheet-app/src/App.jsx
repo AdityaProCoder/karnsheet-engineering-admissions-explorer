@@ -175,9 +175,9 @@ export default function App() {
 
   // Handler: Revert customized ranks to COMEDK original baseline values
   const handleResetData = () => {
-    if (window.confirm("This will revert all customized ranks in your grid back to the original Round 3 COMEDK cutoff baseline values. Continue?")) {
+    if (window.confirm("This will revert all customized ranks in your grid back to the original Round 3 & 4 COMEDK cutoff baseline values. Continue?")) {
       setCurrentData(JSON.parse(JSON.stringify(cutoffData)));
-      showNotification("Data reset to official Round 3 cutoffs baseline!");
+      showNotification("Data reset to official Round 3 & 4 cutoffs baseline!");
     }
   };
 
@@ -202,7 +202,7 @@ export default function App() {
         <div className="glass-card" style={{ padding: '24px 30px', borderLeft: '6px solid var(--accent-emerald)', background: 'var(--bg-secondary)', display: 'flex', flexDirection: 'column', gap: '20px' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '12px', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <span className="badge-tag badge-tag-gov" style={{ padding: '4px 10px', fontSize: '11px', background: 'var(--accent-emerald-light)', color: 'var(--accent-emerald-heavy)', fontWeight: 800 }}>COMEDK Round 3 GM Cutoffs</span>
+              <span className="badge-tag badge-tag-gov" style={{ padding: '4px 10px', fontSize: '11px', background: 'var(--accent-emerald-light)', color: 'var(--accent-emerald-heavy)', fontWeight: 800 }}>COMEDK Round 3 & 4 GM Cutoffs</span>
               <span style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-muted)' }}>Verified counseling database & planner tools</span>
             </div>
             <span style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Release v1.0.2</span>
@@ -214,7 +214,7 @@ export default function App() {
                 About KarnSheet 2026
               </h2>
               <p style={{ fontSize: '14.5px', color: 'var(--text-secondary)', lineHeight: '1.6', margin: 0 }}>
-                KarnSheet is a premium, interactive decision portal built for engineering candidates. It houses the verified Round 3 closing ranks for COMEDK General Merit (GM) admissions. Rather than struggling with massive, static PDFs, KarnSheet lets you model custom rank adjustments, forecast dynamic admissions eligibility, and construct a priority-based sequencing list ready to submit.
+                KarnSheet is a premium, interactive decision portal built for engineering candidates. It houses the verified Round 3 & Round 4 closing ranks for COMEDK General Merit (GM) admissions. Rather than struggling with massive, static PDFs, KarnSheet lets you model custom rank adjustments, forecast dynamic admissions eligibility, and construct a priority-based sequencing list ready to submit.
               </p>
             </div>
             <div style={{ flex: '1.5 1 450px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -279,7 +279,7 @@ export default function App() {
           </div>
           
           <div className="toolbar-container" style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 600, display: 'flex', alignItems: 'center' }}>
-            <span>Round 3 COMEDK General Merit (GM) Ranks</span>
+            <span>Round 3 & 4 COMEDK General Merit (GM) Ranks</span>
           </div>
         </div>
 
@@ -338,7 +338,7 @@ export default function App() {
       {/* App Footer */}
       <footer className="app-footer">
         <p className="footer-bold">KarnSheet 2026</p>
-        <p>Verified Round 3 COMEDK Admissions Cutoff & Interactive Counseling Decision Matrix.</p>
+        <p>Verified Round 3 & 4 COMEDK Admissions Cutoff & Interactive Counseling Decision Matrix.</p>
         <p style={{ fontSize: '9.5px', marginTop: '6px', color: 'var(--text-muted)' }}>
           Powered by React 18+ & Vite. Clean custom styles, no third-party tracking, fully local calculations.
         </p>

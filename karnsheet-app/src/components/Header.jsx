@@ -40,7 +40,7 @@ export default function Header({ theme, toggleTheme, currentData }) {
           </div>
           <div className="logo-text">
             <h1>KarnSheet 2026</h1>
-            <p>COMEDK Round 3 Cutoff Decision Portal</p>
+            <p>COMEDK Round 3 & 4 Cutoff Decision Portal</p>
           </div>
         </div>
 
