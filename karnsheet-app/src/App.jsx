@@ -30,10 +30,16 @@ export default function App() {
 
   // 2. Mutable Cutoff Data state (deep cloned from cutoff.json)
   const [currentData, setCurrentData] = useState(() => {
-    const savedData = localStorage.getItem('karnsheet-data-v1');
+    const savedData = localStorage.getItem('karnsheet-data-v2');
     if (savedData) {
       try {
-        return JSON.parse(savedData);
+        const parsed = JSON.parse(savedData);
+        if (parsed.length > 0 && parsed[0].ranks) {
+          const firstRank = Object.values(parsed[0].ranks)[0];
+          if (firstRank && typeof firstRank === 'object' && ('r3' in firstRank || 'r4' in firstRank)) {
+            return parsed;
+          }
+        }
       } catch (e) {
         console.error("Error reading saved data state, reverting to baseline", e);
       }
@@ -43,15 +49,19 @@ export default function App() {
 
   // Sync current data to localStorage when changed
   useEffect(() => {
-    localStorage.setItem('karnsheet-data-v1', JSON.stringify(currentData));
+    localStorage.setItem('karnsheet-data-v2', JSON.stringify(currentData));
   }, [currentData]);
 
   // 3. Saved Preference Counseling List state (synced with localStorage)
   const [savedPreferences, setSavedPreferences] = useState(() => {
-    const saved = localStorage.getItem('karnsheet-preferences');
+    const saved = localStorage.getItem('karnsheet-preferences-v2');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (parsed.length === 0) return [];
+        if ('cutoffR3' in parsed[0] || 'cutoffR4' in parsed[0]) {
+          return parsed;
+        }
       } catch (e) {
         console.error("Error reading saved preferences", e);
       }
@@ -60,7 +70,7 @@ export default function App() {
   });
 
   useEffect(() => {
-    localStorage.setItem('karnsheet-preferences', JSON.stringify(savedPreferences));
+    localStorage.setItem('karnsheet-preferences-v2', JSON.stringify(savedPreferences));
   }, [savedPreferences]);
 
   // 4. Tab Navigation State

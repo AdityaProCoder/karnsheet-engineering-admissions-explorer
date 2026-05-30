@@ -11,10 +11,18 @@ export default function Header({ theme, toggleTheme, currentData }) {
 
   currentData.forEach(college => {
     if (college.ranks) {
-      Object.entries(college.ranks).forEach(([branch, rank]) => {
+      Object.entries(college.ranks).forEach(([branch, rankObj]) => {
         disciplinesSet.add(branch);
-        if (rank && rank < topClosingRank) {
-          topClosingRank = rank;
+        if (rankObj) {
+          const r3 = rankObj.r3;
+          const r4 = rankObj.r4;
+          const minRank = [r3, r4].filter(x => x !== null && x !== undefined && !isNaN(x) && x > 0);
+          if (minRank.length > 0) {
+            const minVal = Math.min(...minRank);
+            if (minVal < topClosingRank) {
+              topClosingRank = minVal;
+            }
+          }
         }
       });
     }
