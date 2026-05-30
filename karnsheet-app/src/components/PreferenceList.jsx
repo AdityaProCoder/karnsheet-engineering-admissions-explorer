@@ -18,7 +18,8 @@ export default function PreferenceList({
       "College Code": pref.code,
       "College Name": pref.name,
       "Branch": pref.branch,
-      "Closing Cutoff Rank": pref.cutoff
+      "Round 3 Cutoff": pref.cutoffR3 !== null ? pref.cutoffR3 : "N/A",
+      "Round 4 Cutoff": pref.cutoffR4 !== null ? pref.cutoffR4 : "N/A"
     }));
 
     const csvContent = Papa.unparse(formattedData);
@@ -99,11 +100,15 @@ export default function PreferenceList({
                     Code: {pref.code}
                   </span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
                   <span className="pref-branch">{pref.branch}</span>
                   <span style={{ fontSize: '10px', color: 'var(--text-muted)' }}>|</span>
                   <span style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 500 }}>
-                    Cutoff: <strong style={{ color: 'var(--text-primary)' }}>{pref.cutoff.toLocaleString()}</strong>
+                    R3 Cutoff: <strong style={{ color: 'var(--text-primary)' }}>{pref.cutoffR3 !== null ? pref.cutoffR3.toLocaleString() : '-'}</strong>
+                  </span>
+                  <span style={{ fontSize: '10px', color: 'var(--text-muted)' }}>|</span>
+                  <span style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 500 }}>
+                    R4 Cutoff: <strong style={{ color: 'var(--text-primary)' }}>{pref.cutoffR4 !== null ? pref.cutoffR4.toLocaleString() : '-'}</strong>
                   </span>
                 </div>
               </div>

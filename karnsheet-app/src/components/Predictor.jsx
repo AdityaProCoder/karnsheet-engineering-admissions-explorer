@@ -15,6 +15,7 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
   const [citySearchQuery, setCitySearchQuery] = useState('');
   const [branchCategory, setBranchCategory] = useState('All');
   const [sortOrder, setSortOrder] = useState('rank-asc'); // rank-asc, rank-desc, chance-safe-first
+  const [predictRound, setPredictRound] = useState('r4'); // 'r4' | 'r3' | 'best'
 
   // Dynamic Cities List
   const cities = useMemo(() => {
@@ -58,8 +59,23 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
       if (!selectedCities.includes(college.city)) return;
 
       if (college.ranks) {
-        Object.entries(college.ranks).forEach(([branch, cutoff]) => {
-          if (!cutoff) return;
+        Object.entries(college.ranks).forEach(([branch, cutoffObj]) => {
+          if (!cutoffObj) return;
+
+          // Determine active cutoff based on selected predictRound
+          let activeCutoff = null;
+          if (predictRound === 'r3') {
+            activeCutoff = cutoffObj.r3;
+          } else if (predictRound === 'r4') {
+            activeCutoff = cutoffObj.r4;
+          } else if (predictRound === 'best') {
+            const r3Val = cutoffObj.r3 || 0;
+            const r4Val = cutoffObj.r4 || 0;
+            activeCutoff = Math.max(r3Val, r4Val);
+            if (activeCutoff === 0) activeCutoff = null;
+          }
+
+          if (activeCutoff === null) return;
 
           // Filter by branch category
           if (branchCategory !== 'All') {
@@ -73,7 +89,7 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
             if (branchCategory === 'core' && !isCore) return;
           }
 
-          const chance = getChance(submittedRank, cutoff);
+          const chance = getChance(submittedRank, activeCutoff);
           if (chance) {
             matches.push({
               code: college.code,
@@ -81,7 +97,9 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
               city: college.city,
               category: college.category,
               branch,
-              cutoff,
+              cutoff: activeCutoff,
+              cutoffR3: cutoffObj.r3,
+              cutoffR4: cutoffObj.r4,
               chance
             });
           }
@@ -278,6 +296,37 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
             </select>
           </div>
 
+          <div className="form-group">
+            <label className="form-label">Predict Against Cutoff Round</label>
+            <div style={{ display: 'flex', background: 'var(--bg-secondary)', padding: '2px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', gap: '2px' }}>
+              <button 
+                type="button"
+                className={`btn ${predictRound === 'r4' ? 'btn-active-emerald' : 'btn-secondary'}`}
+                style={{ flex: 1, padding: '6px', fontSize: '11px', borderRadius: 'var(--radius-sm)', border: 'none' }}
+                onClick={() => setPredictRound('r4')}
+              >
+                Round 4 (Latest)
+              </button>
+              <button 
+                type="button"
+                className={`btn ${predictRound === 'r3' ? 'btn-active-emerald' : 'btn-secondary'}`}
+                style={{ flex: 1, padding: '6px', fontSize: '11px', borderRadius: 'var(--radius-sm)', border: 'none' }}
+                onClick={() => setPredictRound('r3')}
+              >
+                Round 3
+              </button>
+              <button 
+                type="button"
+                className={`btn ${predictRound === 'best' ? 'btn-active-emerald' : 'btn-secondary'}`}
+                style={{ flex: 1, padding: '6px', fontSize: '11px', borderRadius: 'var(--radius-sm)', border: 'none' }}
+                onClick={() => setPredictRound('best')}
+                title="Predicts using the better (higher) cutoff rank from either Round 3 or 4"
+              >
+                Best Case
+              </button>
+            </div>
+          </div>
+
           <button type="submit" className="btn btn-primary btn-block" style={{ marginTop: '8px' }}>
             <Sparkles size={16} />
             <span>Generate Admissions Forecast</span>
@@ -377,8 +426,10 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
                         </div>
                         <h4 className="match-college-title">{item.name.split(',')[0]}</h4>
                         <div className="match-branch-subtitle">{item.branch}</div>
-                        <div className="match-cutoff-label">
-                          Closing Round 3 Cutoff: <span className="match-cutoff-val">{item.cutoff.toLocaleString()}</span>
+                        <div className="match-cutoff-label" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '6px' }}>
+                          <span>R3 Cutoff: <strong style={{ color: 'var(--text-primary)' }}>{item.cutoffR3 !== null ? item.cutoffR3.toLocaleString() : '-'}</strong></span>
+                          <span style={{ color: 'var(--text-muted)' }}>|</span>
+                          <span>R4 Cutoff: <strong style={{ color: 'var(--text-primary)' }}>{item.cutoffR4 !== null ? item.cutoffR4.toLocaleString() : '-'}</strong></span>
                         </div>
                       </div>
 
@@ -387,7 +438,7 @@ export default function Predictor({ currentData, onAddPreference, savedPreferenc
                         <button
                           className={`btn ${saved ? 'btn-secondary' : 'btn-primary'}`}
                           style={{ padding: '6px 10px', fontSize: '11px', display: 'flex', gap: '4px' }}
-                          onClick={() => onAddPreference(item.name, item.code, item.branch, item.cutoff)}
+                          onClick={() => onAddPreference(item.name, item.code, item.branch, item.cutoffR3, item.cutoffR4)}
                           disabled={saved}
                         >
                           {saved ? (

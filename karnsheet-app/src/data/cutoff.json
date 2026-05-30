@@ -5,18 +5,54 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AE - Aeronautical Engineering": 104061,
-      "AI - Artificial Intelligence & Machine Learning": 52746,
-      "BT - Bio- technology": 105937,
-      "CD - Computer Science & Engineering (Data Science)": 53623,
-      "CS - Computer Science & Engineering": 51728,
-      "CV - Civil Engineering": 90907,
-      "EC - Electronics & Communicati on Engineering": 89548,
-      "EE - Electrical & Electronics Engineering": 104887,
-      "IS - Information Science & Engineering": 75143,
-      "ME - Mechanical Engineering": 107616,
-      "MT - Mechatronics Engineering": 90218,
-      "RI - Robotics & Artificial Intelligence": 70413
+      "AE - Aeronautical Engineering": {
+        "r3": 104061,
+        "r4": 56571
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 52746,
+        "r4": 99107
+      },
+      "BT - Biotechnology": {
+        "r3": 105937,
+        "r4": 82087
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 53623,
+        "r4": 103486
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 51728,
+        "r4": 109781
+      },
+      "CV - Civil Engineering": {
+        "r3": 90907,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 89548,
+        "r4": 87540
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 104887,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 75143,
+        "r4": 106733
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 107616,
+        "r4": null
+      },
+      "MT - Mechatronics Engineering": {
+        "r3": 90218,
+        "r4": null
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 70413,
+        "r4": null
+      }
     }
   },
   {
@@ -25,10 +61,22 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 92733,
-      "AS - Aerospace Engineering": 90119,
-      "CS - Computer Science & Engineering": 104746,
-      "CY - Computer Science & Engineering (Cyber Security)": 98461
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 92733,
+        "r4": 74861
+      },
+      "AS - Aerospace Engineering": {
+        "r3": 90119,
+        "r4": 90119
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 104746,
+        "r4": null
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 98461,
+        "r4": null
+      }
     }
   },
   {
@@ -37,9 +85,18 @@
     "city": "Chikkamagaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 106484,
-      "CD - Computer Science & Engineering (Data Science)": 86772,
-      "CS - Computer Science & Engineering": 59442
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 106484,
+        "r4": 62788
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 86772,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 59442,
+        "r4": 96642
+      }
     }
   },
   {
@@ -48,10 +105,22 @@
     "city": "Bengaluru Rural",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 71024,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 91347,
-      "CS - Computer Science & Engineering": 111733,
-      "CY - Computer Science & Engineering (Cyber Security)": 104762
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 71024,
+        "r4": 84613
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 91347,
+        "r4": 84459
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 111733,
+        "r4": null
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 104762,
+        "r4": null
+      }
     }
   },
   {
@@ -60,10 +129,22 @@
     "city": "Mangaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 89891,
-      "CD - Computer Science & Engineering (Data Science)": 56170,
-      "CS - Computer Science & Engineering": 107931,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 75282
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 89891,
+        "r4": null
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 56170,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 107931,
+        "r4": null
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 75282,
+        "r4": null
+      }
     }
   },
   {
@@ -72,13 +153,34 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AE - Aeronautical Engineering": 95021,
-      "AI - Artificial Intelligence & Machine Learning": 109229,
-      "CD - Computer Science & Engineering (Data Science)": 92944,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 111096,
-      "CS - Computer Science & Engineering": 109518,
-      "EC - Electronics & Communicati on Engineering": 62066,
-      "EE - Electrical & Electronics Engineering": 70900
+      "AE - Aeronautical Engineering": {
+        "r3": 95021,
+        "r4": null
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 109229,
+        "r4": 103040
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 92944,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 111096,
+        "r4": 110976
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 109518,
+        "r4": 102932
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 62066,
+        "r4": null
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 70900,
+        "r4": null
+      }
     }
   },
   {
@@ -87,7 +189,10 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "EC - Electronics & Communicati on Engineering": 107672
+      "EC - Electronics & Communication Engineering": {
+        "r3": 107672,
+        "r4": null
+      }
     }
   },
   {
@@ -96,8 +201,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 94218,
-      "CS - Computer Science & Engineering": 41643
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 94218,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 41643,
+        "r4": null
+      }
     }
   },
   {
@@ -106,12 +217,30 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 92297,
-      "CD - Computer Science & Engineering (Data Science)": 111230,
-      "CS - Computer Science & Engineering": 85478,
-      "EC - Electronics & Communicati on Engineering": 110946,
-      "IS - Information Science & Engineering": 109052,
-      "RA - Robotics & Automation": 104693
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 92297,
+        "r4": 85194
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 111230,
+        "r4": 105457
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 85478,
+        "r4": 99556
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 110946,
+        "r4": 110946
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 109052,
+        "r4": 53093
+      },
+      "RA - Robotics & Automation": {
+        "r3": 104693,
+        "r4": null
+      }
     }
   },
   {
@@ -127,7 +256,10 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 104513
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 104513,
+        "r4": null
+      }
     }
   },
   {
@@ -136,12 +268,30 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 30837,
-      "CS - Computer Science & Engineering": 24582,
-      "EC - Electronics & Communicati on Engineering": 37057,
-      "EE - Electrical & Electronics Engineering": 62330,
-      "IS - Information Science & Engineering": 31447,
-      "ME - Mechanical Engineering": 108369
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 30837,
+        "r4": 43182
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 24582,
+        "r4": 36964
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 37057,
+        "r4": 63350
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 62330,
+        "r4": 91589
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 31447,
+        "r4": 45911
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 108369,
+        "r4": null
+      }
     }
   },
   {
@@ -150,15 +300,42 @@
     "city": "Hubballi",
     "category": "GM",
     "ranks": {
-      "AR - Automation & Robotics Engineering": 53894,
-      "BT - Bio- technology": 106895,
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 33066,
-      "CS - Computer Science & Engineering": 31388,
-      "CV - Civil Engineering": 111127,
-      "EC - Electronics & Communicati on Engineering": 54028,
-      "EE - Electrical & Electronics Engineering": 110581,
-      "ME - Mechanical Engineering": 103984,
-      "VLS - VLSI": 60902
+      "AR - Automation & Robotics Engineering": {
+        "r3": 53894,
+        "r4": 106607
+      },
+      "BT - Biotechnology": {
+        "r3": 106895,
+        "r4": null
+      },
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 33066,
+        "r4": 47299
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 31388,
+        "r4": 42269
+      },
+      "CV - Civil Engineering": {
+        "r3": 111127,
+        "r4": 111127
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 54028,
+        "r4": 68078
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 110581,
+        "r4": 105816
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 103984,
+        "r4": 81153
+      },
+      "VLS - VLSI": {
+        "r3": 60902,
+        "r4": 73602
+      }
     }
   },
   {
@@ -167,8 +344,14 @@
     "city": "Ballari",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 86938,
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 73490
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 86938,
+        "r4": null
+      },
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 73490,
+        "r4": null
+      }
     }
   },
   {
@@ -177,19 +360,62 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 12943,
-      "CD - Computer Science & Engineering (Data Science)": 10496,
-      "CS - Computer Science & Engineering": 9177,
-      "CV - Civil Engineering": 84998,
-      "EC - Electronics & Communicati on Engineering": 19284,
-      "EE - Electrical & Electronics Engineering": 29168,
-      "EI - Electronics & Instrumentati on Engineering": 33853,
-      "ET - Electronics & Telecommu- nication Engineering": 25329,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 13341,
-      "IS - Information Science & Engineering": 15238,
-      "ME - Mechanical Engineering": 53844,
-      "RI - Robotics & Artificial Intelligence": 17065,
-      "VL - Electronics Engineering (VLSI Design & Technology)": 23687
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 12943,
+        "r4": 22868
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 10496,
+        "r4": 18272
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 9177,
+        "r4": 16423
+      },
+      "CV - Civil Engineering": {
+        "r3": 84998,
+        "r4": 99675
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 19284,
+        "r4": 32635
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 29168,
+        "r4": 54276
+      },
+      "EI - Electronics & Instrumentati on Engineering": {
+        "r3": 33853,
+        "r4": null
+      },
+      "ET - Electronics & Telecommu- nication Engineering": {
+        "r3": 25329,
+        "r4": 51158
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 13341,
+        "r4": 24466
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 15238,
+        "r4": 24965
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 53844,
+        "r4": 99493
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 17065,
+        "r4": 30233
+      },
+      "VL - Electronics Engineering (VLSI Design & Technology)": {
+        "r3": 23687,
+        "r4": 42283
+      },
+      "EI - Electronics & Instrument- ation Engineering": {
+        "r3": null,
+        "r4": 68852
+      }
     }
   },
   {
@@ -198,12 +424,30 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 107728,
-      "CD - Computer Science & Engineering (Data Science)": 103964,
-      "CE - Computer Engineering": 100965,
-      "CS - Computer Science & Engineering": 81326,
-      "EC - Electronics & Communicati on Engineering": 94248,
-      "RI - Robotics & Artificial Intelligence": 65090
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 107728,
+        "r4": null
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 103964,
+        "r4": null
+      },
+      "CE - Computer Engineering": {
+        "r3": 100965,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 81326,
+        "r4": 53793
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 94248,
+        "r4": null
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 65090,
+        "r4": null
+      }
     }
   },
   {
@@ -212,11 +456,26 @@
     "city": "Davangere",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 111412,
-      "CD - Computer Science & Engineering (Data Science)": 111716,
-      "CS - Computer Science & Engineering": 110850,
-      "EC - Electronics & Communicati on Engineering": 101158,
-      "IS - Information Science & Engineering": 106067
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 111412,
+        "r4": 101886
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 111716,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110850,
+        "r4": 111716
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 101158,
+        "r4": 101288
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 106067,
+        "r4": 90931
+      }
     }
   },
   {
@@ -232,10 +491,22 @@
     "city": "Bagalkote",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 103197,
-      "CS - Computer Science & Engineering": 92928,
-      "EC - Electronics & Communicati on Engineering": 108233,
-      "IS - Information Science & Engineering": 108363
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 103197,
+        "r4": 74077
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 92928,
+        "r4": 103197
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 108233,
+        "r4": 90169
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 108363,
+        "r4": 109052
+      }
     }
   },
   {
@@ -244,8 +515,14 @@
     "city": "Vijayapura",
     "category": "GM",
     "ranks": {
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 103425,
-      "CS - Computer Science & Engineering": 106797
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 103425,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 106797,
+        "r4": 91800
+      }
     }
   },
   {
@@ -254,17 +531,50 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 4049,
-      "AI - Artificial Intelligence & Machine Learning": 4569,
-      "BT - Bio- technology": 30409,
-      "CB - Computer Science & Business Systems": 4349,
-      "CD - Computer Science & Engineering (Data Science)": 3854,
-      "CH - Chemical Engineering": 25041,
-      "CS - Computer Science & Engineering": 3689,
-      "CV - Civil Engineering": 31147,
-      "EC - Electronics & Communicati on Engineering": 5302,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 4089,
-      "ME - Mechanical Engineering": 13510
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 4049,
+        "r4": 5885
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 4569,
+        "r4": 6686
+      },
+      "BT - Biotechnology": {
+        "r3": 30409,
+        "r4": 39302
+      },
+      "CB - Computer Science & Business Systems": {
+        "r3": 4349,
+        "r4": 6650
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 3854,
+        "r4": 5610
+      },
+      "CH - Chemical Engineering": {
+        "r3": 25041,
+        "r4": 44795
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 3689,
+        "r4": 5312
+      },
+      "CV - Civil Engineering": {
+        "r3": 31147,
+        "r4": 47626
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 5302,
+        "r4": 7904
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 4089,
+        "r4": 6143
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 13510,
+        "r4": 21793
+      }
     }
   },
   {
@@ -273,13 +583,34 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 16633,
-      "CB - Computer Science & Business Systems": 15601,
-      "CS - Computer Science & Engineering": 14153,
-      "CV - Civil Engineering": 68667,
-      "EC - Electronics & Communicati on Engineering": 19346,
-      "EE - Electrical & Electronics Engineering": 26385,
-      "ME - Mechanical Engineering": 43026
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 16633,
+        "r4": 26313
+      },
+      "CB - Computer Science & Business Systems": {
+        "r3": 15601,
+        "r4": 22972
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 14153,
+        "r4": 19984
+      },
+      "CV - Civil Engineering": {
+        "r3": 68667,
+        "r4": 98837
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 19346,
+        "r4": 29885
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 26385,
+        "r4": 47837
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 43026,
+        "r4": 68406
+      }
     }
   },
   {
@@ -288,7 +619,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CV - Civil Engineering": 6655
+      "CV - Civil Engineering": {
+        "r3": 6655,
+        "r4": null
+      }
     }
   },
   {
@@ -297,13 +631,34 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 24251,
-      "AI - Artificial Intelligence & Machine Learning": 22998,
-      "CD - Computer Science & Engineering (Data Science)": 19813,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 18611,
-      "CS - Computer Science & Engineering": 18084,
-      "EC - Electronics & Communicati on Engineering": 38765,
-      "IS - Information Science & Engineering": 26492
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 24251,
+        "r4": 36348
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 22998,
+        "r4": 34791
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 19813,
+        "r4": 29052
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 18611,
+        "r4": 26892
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 18084,
+        "r4": 26223
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 38765,
+        "r4": 63591
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 26492,
+        "r4": 39306
+      }
     }
   },
   {
@@ -312,13 +667,34 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 59221,
-      "CD - Computer Science & Engineering (Data Science)": 58396,
-      "CS - Computer Science & Engineering": 58952,
-      "EC - Electronics & Communicati on Engineering": 111194,
-      "EE - Electrical & Electronics Engineering": 98440,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 63549,
-      "ME - Mechanical Engineering": 82604
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 59221,
+        "r4": 111359
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 58396,
+        "r4": 85816
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 58952,
+        "r4": 110484
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 111194,
+        "r4": 88739
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 98440,
+        "r4": null
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 63549,
+        "r4": 93618
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 82604,
+        "r4": null
+      }
     }
   },
   {
@@ -327,7 +703,10 @@
     "city": "Tumakuru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 88016
+      "CS - Computer Science & Engineering": {
+        "r3": 88016,
+        "r4": null
+      }
     }
   },
   {
@@ -336,8 +715,14 @@
     "city": "Bengaluru Rural",
     "category": "GM",
     "ranks": {
-      "MAE - Mechanical & Aerospace Engineering": 61373,
-      "VL - Electronics Engineering (VLSI Design & Technology)": 48972
+      "MAE - Mechanical & Aerospace Engineering": {
+        "r3": 61373,
+        "r4": null
+      },
+      "VL - Electronics Engineering (VLSI Design & Technology)": {
+        "r3": 48972,
+        "r4": null
+      }
     }
   },
   {
@@ -346,7 +731,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 100851
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 100851,
+        "r4": null
+      }
     }
   },
   {
@@ -355,7 +743,10 @@
     "city": "South Kodagu",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 63276
+      "CS - Computer Science & Engineering": {
+        "r3": 63276,
+        "r4": null
+      }
     }
   },
   {
@@ -364,14 +755,38 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 37213,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 34054,
-      "CS - Computer Science & Engineering": 35187,
-      "CY - Computer Science & Engineering (Cyber Security)": 37819,
-      "EC - Electronics & Communicati on Engineering": 46875,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 39604,
-      "IS - Information Science & Engineering": 44072,
-      "ME - Mechanical Engineering": 57162
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 37213,
+        "r4": 68369
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 34054,
+        "r4": 54107
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 35187,
+        "r4": 58956
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 37819,
+        "r4": 73943
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 46875,
+        "r4": 108621
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 39604,
+        "r4": 86367
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 44072,
+        "r4": 94611
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 57162,
+        "r4": 91599
+      }
     }
   },
   {
@@ -380,24 +795,78 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AE - Aeronautical Engineering": 21325,
-      "AI - Artificial Intelligence & Machine Learning": 6201,
-      "AU - Automobile Engineering": 37797,
-      "BT - Bio- technology": 44710,
-      "CD - Computer Science & Engineering (Data Science)": 5740,
-      "CG - Computer Science & Design": 7492,
-      "CH - Chemical Engineering": 38499,
-      "CS - Computer Science & Engineering": 5479,
-      "CV - Civil Engineering": 40753,
-      "CY - Computer Science & Engineering (Cyber Security)": 6442,
-      "EC - Electronics & Communicati on Engineering": 10951,
-      "EE - Electrical & Electronics Engineering": 19099,
-      "ET - Electronics & Telecommu- nication Engineering": 17797,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 6664,
-      "IS - Information Science & Engineering": 7373,
-      "MD - Medical Electronics Engineering": 50220,
-      "ME - Mechanical Engineering": 34913,
-      "RI - Robotics & Artificial Intelligence": 8006
+      "AE - Aeronautical Engineering": {
+        "r3": 21325,
+        "r4": 37450
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 6201,
+        "r4": 9622
+      },
+      "AU - Automobile Engineering": {
+        "r3": 37797,
+        "r4": 63821
+      },
+      "BT - Biotechnology": {
+        "r3": 44710,
+        "r4": 81432
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 5740,
+        "r4": 8322
+      },
+      "CG - Computer Science & Design": {
+        "r3": 7492,
+        "r4": 11261
+      },
+      "CH - Chemical Engineering": {
+        "r3": 38499,
+        "r4": 53019
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 5479,
+        "r4": 7819
+      },
+      "CV - Civil Engineering": {
+        "r3": 40753,
+        "r4": 68618
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 6442,
+        "r4": 9105
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 10951,
+        "r4": 17651
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 19099,
+        "r4": 36048
+      },
+      "ET - Electronics & Telecommu- nication Engineering": {
+        "r3": 17797,
+        "r4": 30129
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 6664,
+        "r4": 10204
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 7373,
+        "r4": 10627
+      },
+      "MD - Medical Electronics Engineering": {
+        "r3": 50220,
+        "r4": 71114
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 34913,
+        "r4": 55934
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 8006,
+        "r4": 12335
+      }
     }
   },
   {
@@ -406,12 +875,30 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 102657,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 107604,
-      "CS - Computer Science & Engineering": 111427,
-      "EC - Electronics & Communicati on Engineering": 81250,
-      "EE - Electrical & Electronics Engineering": 32466,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 33031
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 102657,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 107604,
+        "r4": 71736
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 111427,
+        "r4": 78693
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 81250,
+        "r4": null
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 32466,
+        "r4": null
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 33031,
+        "r4": null
+      }
     }
   },
   {
@@ -420,14 +907,38 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AE - Aeronautical Engineering": 107317,
-      "AI - Artificial Intelligence & Machine Learning": 45417,
-      "CB - Computer Science & Business Systems": 59929,
-      "CD - Computer Science & Engineering (Data Science)": 48747,
-      "CS - Computer Science & Engineering": 42969,
-      "EC - Electronics & Communicati on Engineering": 60654,
-      "ECV - Electronics and Communica- tion Engineering ( VLSI Design & Technology)": 82112,
-      "IS - Information Science & Engineering": 60782
+      "AE - Aeronautical Engineering": {
+        "r3": 107317,
+        "r4": null
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 45417,
+        "r4": 84409
+      },
+      "CB - Computer Science & Business Systems": {
+        "r3": 59929,
+        "r4": 76077
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 48747,
+        "r4": 110247
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 42969,
+        "r4": 82800
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 60654,
+        "r4": 84729
+      },
+      "ECV - Electronics and Communication Engineering (VLSI Design & Technology)": {
+        "r3": 82112,
+        "r4": 70725
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 60782,
+        "r4": 109945
+      }
     }
   },
   {
@@ -436,7 +947,10 @@
     "city": "Mangaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 89103
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 89103,
+        "r4": null
+      }
     }
   },
   {
@@ -452,9 +966,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 106828,
-      "CS - Computer Science & Engineering": 99127,
-      "IS - Information Science & Engineering": 83887
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 106828,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 99127,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 83887,
+        "r4": null
+      }
     }
   },
   {
@@ -463,12 +986,30 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 104956,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 110249,
-      "CS - Computer Science & Engineering": 87819,
-      "EC - Electronics & Communicati on Engineering": 74935,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 110484,
-      "IS - Information Science & Engineering": 108885
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 104956,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 110249,
+        "r4": 59837
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 87819,
+        "r4": 86011
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 74935,
+        "r4": 74935
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 110484,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 108885,
+        "r4": null
+      }
     }
   },
   {
@@ -477,12 +1018,30 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 108498,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 64384,
-      "CS - Computer Science & Engineering": 88757,
-      "EC - Electronics & Communicati on Engineering": 69091,
-      "EE - Electrical & Electronics Engineering": 108308,
-      "ME - Mechanical Engineering": 104180
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 108498,
+        "r4": 73053
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 64384,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 88757,
+        "r4": 88757
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 69091,
+        "r4": null
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 108308,
+        "r4": null
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 104180,
+        "r4": null
+      }
     }
   },
   {
@@ -491,8 +1050,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CN - Computer Science & Technology": 79136,
-      "CS - Computer Science & Engineering": 106127
+      "CN - Computer Science & Technology": {
+        "r3": 79136,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 106127,
+        "r4": 63842
+      }
     }
   },
   {
@@ -501,16 +1066,46 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 80207,
-      "AE - Aeronautical Engineering": 76592,
-      "AI - Artificial Intelligence & Machine Learning": 63167,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 79288,
-      "CS - Computer Science & Engineering": 75438,
-      "CV - Civil Engineering": 104120,
-      "EC - Electronics & Communicati on Engineering": 111800,
-      "EE - Electrical & Electronics Engineering": 91719,
-      "IS - Information Science & Engineering": 101196,
-      "ME - Mechanical Engineering": 94278
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 80207,
+        "r4": 55758
+      },
+      "AE - Aeronautical Engineering": {
+        "r3": 76592,
+        "r4": null
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 63167,
+        "r4": 99801
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 79288,
+        "r4": 94669
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 75438,
+        "r4": 110697
+      },
+      "CV - Civil Engineering": {
+        "r3": 104120,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 111800,
+        "r4": 74350
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 91719,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 101196,
+        "r4": 92682
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 94278,
+        "r4": null
+      }
     }
   },
   {
@@ -519,7 +1114,10 @@
     "city": "Davangere",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 78310
+      "CS - Computer Science & Engineering": {
+        "r3": 78310,
+        "r4": 69224
+      }
     }
   },
   {
@@ -528,10 +1126,22 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 90783,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 110929,
-      "CS - Computer Science & Engineering": 101116,
-      "EC - Electronics & Communicati on Engineering": 90597
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 90783,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 110929,
+        "r4": 65974
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 101116,
+        "r4": 89034
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 90597,
+        "r4": null
+      }
     }
   },
   {
@@ -540,11 +1150,26 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 69950,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 52101,
-      "CS - Computer Science & Engineering": 48397,
-      "EC - Electronics & Communicati on Engineering": 110904,
-      "IS - Information Science & Engineering": 71549
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 69950,
+        "r4": 74720
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 52101,
+        "r4": 56718
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 48397,
+        "r4": 54607
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 110904,
+        "r4": 102442
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 71549,
+        "r4": 88717
+      }
     }
   },
   {
@@ -560,7 +1185,10 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 4752
+      "CS - Computer Science & Engineering": {
+        "r3": 4752,
+        "r4": 7156
+      }
     }
   },
   {
@@ -569,12 +1197,34 @@
     "city": "Shivamogga",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 101886,
-      "CD - Computer Science & Engineering (Data Science)": 104928,
-      "CS - Computer Science & Engineering": 101301,
-      "EC - Electronics & Communicati on Engineering": 75336,
-      "IS - Information Science & Engineering": 85433,
-      "RI - Robotics & Artificial Intelligence": 100557
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 101886,
+        "r4": 92366
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 104928,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 101301,
+        "r4": 46827
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 75336,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 85433,
+        "r4": null
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 100557,
+        "r4": null
+      },
+      "CV - Civil Engineering": {
+        "r3": null,
+        "r4": 103564
+      }
     }
   },
   {
@@ -583,14 +1233,38 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 37474,
-      "CS - Computer Science & Engineering": 36550,
-      "CV - Civil Engineering": 78471,
-      "EC - Electronics & Communicati on Engineering": 56738,
-      "EI - Electronics & Instrumentati on Engineering": 82291,
-      "IS - Information Science & Engineering": 44529,
-      "ME - Mechanical Engineering": 97000,
-      "RA - Robotics & Automation": 51021
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 37474,
+        "r4": 68949
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 36550,
+        "r4": 61469
+      },
+      "CV - Civil Engineering": {
+        "r3": 78471,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 56738,
+        "r4": 110026
+      },
+      "EI - Electronics & Instrumentati on Engineering": {
+        "r3": 82291,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 44529,
+        "r4": 107604
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 97000,
+        "r4": null
+      },
+      "RA - Robotics & Automation": {
+        "r3": 51021,
+        "r4": 100246
+      }
     }
   },
   {
@@ -599,13 +1273,34 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "BT - Bio- technology": 98365,
-      "CB - Computer Science & Business Systems": 18824,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 13641,
-      "CS - Computer Science & Engineering": 12996,
-      "CV - Civil Engineering": 109696,
-      "IS - Information Science & Engineering": 19312,
-      "ME - Mechanical Engineering": 56635
+      "BT - Biotechnology": {
+        "r3": 98365,
+        "r4": 109696
+      },
+      "CB - Computer Science & Business Systems": {
+        "r3": 18824,
+        "r4": 26967
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 13641,
+        "r4": 16101
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 12996,
+        "r4": 15742
+      },
+      "CV - Civil Engineering": {
+        "r3": 109696,
+        "r4": 81346
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 19312,
+        "r4": 26486
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 56635,
+        "r4": 93758
+      }
     }
   },
   {
@@ -614,9 +1309,18 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 96545,
-      "CS - Computer Science & Engineering": 110288,
-      "EC - Electronics & Communicati on Engineering": 79925
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 96545,
+        "r4": 73621
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110288,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 79925,
+        "r4": null
+      }
     }
   },
   {
@@ -632,9 +1336,18 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 110588,
-      "CS - Computer Science & Engineering": 110996,
-      "EC - Electronics & Communicati on Engineering": 77514
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 110588,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110996,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 77514,
+        "r4": null
+      }
     }
   },
   {
@@ -643,11 +1356,26 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 69481,
-      "CH - Chemical Engineering": 94423,
-      "CS - Computer Science & Engineering": 79727,
-      "EC - Electronics & Communicati on Engineering": 94385,
-      "EE - Electrical & Electronics Engineering": 94755
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 69481,
+        "r4": 101670
+      },
+      "CH - Chemical Engineering": {
+        "r3": 94423,
+        "r4": 67577
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 79727,
+        "r4": 99417
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 94385,
+        "r4": 109669
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 94755,
+        "r4": null
+      }
     }
   },
   {
@@ -656,9 +1384,18 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 105457,
-      "CS - Computer Science & Engineering": 109981,
-      "EC - Electronics & Communicati on Engineering": 96361
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 105457,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 109981,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 96361,
+        "r4": null
+      }
     }
   },
   {
@@ -667,7 +1404,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 101569
+      "CS - Computer Science & Engineering": {
+        "r3": 101569,
+        "r4": null
+      }
     }
   },
   {
@@ -676,10 +1416,22 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 102605,
-      "CS - Computer Science & Engineering": 106608,
-      "EC - Electronics & Communicati on Engineering": 66339,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 78493
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 102605,
+        "r4": 102605
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 106608,
+        "r4": 82138
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 66339,
+        "r4": 62181
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 78493,
+        "r4": null
+      }
     }
   },
   {
@@ -709,13 +1461,34 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "AE - Aeronautical Engineering": 107667,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 41876,
-      "CS - Computer Science & Engineering": 53966,
-      "CV - Civil Engineering": 7406,
-      "EC - Electronics & Communicati on Engineering": 68273,
-      "EE - Electrical & Electronics Engineering": 92019,
-      "ME - Mechanical Engineering": 88764
+      "AE - Aeronautical Engineering": {
+        "r3": 107667,
+        "r4": 101565
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 41876,
+        "r4": 43970
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 53966,
+        "r4": 65197
+      },
+      "CV - Civil Engineering": {
+        "r3": 7406,
+        "r4": 7406
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 68273,
+        "r4": 79437
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 92019,
+        "r4": null
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 88764,
+        "r4": null
+      }
     }
   },
   {
@@ -724,9 +1497,18 @@
     "city": "Haliyal",
     "category": "GM",
     "ranks": {
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 111074,
-      "CS - Computer Science & Engineering": 110111,
-      "EC - Electronics & Communicati on Engineering": 108632
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 111074,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110111,
+        "r4": 110111
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 108632,
+        "r4": 108632
+      }
     }
   },
   {
@@ -735,8 +1517,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 103454,
-      "CS - Computer Science & Engineering": 94425
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 103454,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 94425,
+        "r4": null
+      }
     }
   },
   {
@@ -745,8 +1533,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 45773,
-      "CS - Computer Science & Engineering": 101479
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 45773,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 101479,
+        "r4": null
+      }
     }
   },
   {
@@ -755,23 +1549,78 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 2483,
-      "AI - Artificial Intelligence & Machine Learning": 2402,
-      "AS - Aerospace Engineering": 9212,
-      "BT - Bio- technology": 26988,
-      "CH - Chemical Engineering": 28430,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 1649,
-      "CS - Computer Science & Engineering": 1341,
-      "CV - Civil Engineering": 30423,
-      "CY - Computer Science & Engineering (Cyber Security)": 2071,
-      "EC - Electronics & Communicati on Engineering": 3162,
-      "EE - Electrical & Electronics Engineering": 5756,
-      "EI - Electronics & Instrumentati on Engineering": 6106,
-      "ET - Electronics & Telecommu- nication Engineering": 4772,
-      "IM - Industrial Engineering & Management": 27429,
-      "IS - Information Science & Engineering": 2311,
-      "MD - Medical Electronics Engineering": 33938,
-      "ME - Mechanical Engineering": 12622
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 2483,
+        "r4": 3422
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 2402,
+        "r4": 3244
+      },
+      "AS - Aerospace Engineering": {
+        "r3": 9212,
+        "r4": 14008
+      },
+      "BT - Biotechnology": {
+        "r3": 26988,
+        "r4": 38302
+      },
+      "CH - Chemical Engineering": {
+        "r3": 28430,
+        "r4": 42698
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 1649,
+        "r4": 2098
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 1341,
+        "r4": 1667
+      },
+      "CV - Civil Engineering": {
+        "r3": 30423,
+        "r4": 45472
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 2071,
+        "r4": 2852
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 3162,
+        "r4": 4567
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 5756,
+        "r4": 8406
+      },
+      "EI - Electronics & Instrumentati on Engineering": {
+        "r3": 6106,
+        "r4": null
+      },
+      "ET - Electronics & Telecommu- nication Engineering": {
+        "r3": 4772,
+        "r4": 6767
+      },
+      "IM - Industrial Engineering & Management": {
+        "r3": 27429,
+        "r4": 46626
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 2311,
+        "r4": 3030
+      },
+      "MD - Medical Electronics Engineering": {
+        "r3": 33938,
+        "r4": 51999
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 12622,
+        "r4": 25278
+      },
+      "EI - Electronics & Instrument- ation Engineering": {
+        "r3": null,
+        "r4": 9756
+      }
     }
   },
   {
@@ -780,15 +1629,42 @@
     "city": "Mandya",
     "category": "GM",
     "ranks": {
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 100751,
-      "CB - Computer Science & Business Systems": 106222,
-      "CD - Computer Science & Engineering (Data Science)": 111099,
-      "CE - Computer Engineering": 108542,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 96870,
-      "CS - Computer Science & Engineering": 101975,
-      "EC - Electronics & Communicati on Engineering": 110498,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 109740,
-      "IS - Information Science & Engineering": 111029
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 100751,
+        "r4": 101827
+      },
+      "CB - Computer Science & Business Systems": {
+        "r3": 106222,
+        "r4": 109740
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 111099,
+        "r4": 106871
+      },
+      "CE - Computer Engineering": {
+        "r3": 108542,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 96870,
+        "r4": 98718
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 101975,
+        "r4": 111099
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 110498,
+        "r4": null
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 109740,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 111029,
+        "r4": 102839
+      }
     }
   },
   {
@@ -797,8 +1673,14 @@
     "city": "Hassan",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 92605,
-      "CS - Computer Science & Engineering": 110247
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 92605,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110247,
+        "r4": 82338
+      }
     }
   },
   {
@@ -807,7 +1689,10 @@
     "city": "Mangaluru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 109490
+      "CS - Computer Science & Engineering": {
+        "r3": 109490,
+        "r4": null
+      }
     }
   },
   {
@@ -823,8 +1708,18 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 75566,
-      "CS - Computer Science & Engineering": 109919
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 75566,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 109919,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": null,
+        "r4": 71122
+      }
     }
   },
   {
@@ -840,8 +1735,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 59079,
-      "CS - Computer Science & Engineering": 94779
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 59079,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 94779,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": null,
+        "r4": 59079
+      }
     }
   },
   {
@@ -850,8 +1755,14 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 15809,
-      "CS - Computer Science & Engineering": 15390
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 15809,
+        "r4": 25039
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 15390,
+        "r4": 24347
+      }
     }
   },
   {
@@ -867,16 +1778,46 @@
     "city": "Mandya",
     "category": "GM",
     "ranks": {
-      "CB - Computer Science & Business Systems": 25053,
-      "CD - Computer Science & Engineering (Data Science)": 29874,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 23957,
-      "CS - Computer Science & Engineering": 35673,
-      "CV - Civil Engineering": 76684,
-      "EC - Electronics & Communicati on Engineering": 41342,
-      "ECV - Electronics and Communica- tion Engineering ( VLSI Design & Technology)": 43511,
-      "EE - Electrical & Electronics Engineering": 37003,
-      "IS - Information Science & Engineering": 42248,
-      "RI - Robotics & Artificial Intelligence": 39412
+      "CB - Computer Science & Business Systems": {
+        "r3": 25053,
+        "r4": 52714
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 29874,
+        "r4": 71221
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 23957,
+        "r4": 62004
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 35673,
+        "r4": 82113
+      },
+      "CV - Civil Engineering": {
+        "r3": 76684,
+        "r4": 110449
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 41342,
+        "r4": 82264
+      },
+      "ECV - Electronics and Communication Engineering (VLSI Design & Technology)": {
+        "r3": 43511,
+        "r4": 95839
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 37003,
+        "r4": 66533
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 42248,
+        "r4": 92865
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 39412,
+        "r4": 49355
+      }
     }
   },
   {
@@ -885,14 +1826,38 @@
     "city": "Shivamogga",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 111068,
-      "CD - Computer Science & Engineering (Data Science)": 106482,
-      "CE - Computer Engineering": 110737,
-      "CS - Computer Science & Engineering": 82096,
-      "EC - Electronics & Communicati on Engineering": 108985,
-      "EE - Electrical & Electronics Engineering": 69375,
-      "IS - Information Science & Engineering": 107203,
-      "ME - Mechanical Engineering": 88296
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 111068,
+        "r4": null
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 106482,
+        "r4": null
+      },
+      "CE - Computer Engineering": {
+        "r3": 110737,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 82096,
+        "r4": 84099
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 108985,
+        "r4": null
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 69375,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 107203,
+        "r4": null
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 88296,
+        "r4": null
+      }
     }
   },
   {
@@ -908,19 +1873,58 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AS - Aerospace Engineering": 3464,
-      "BT - Bio- technology": 14685,
-      "CD - Computer Science & Engineering (Data Science)": 649,
-      "CH - Chemical Engineering": 11506,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 713,
-      "CS - Computer Science & Engineering": 542,
-      "CV - Civil Engineering": 17969,
-      "CY - Computer Science & Engineering (Cyber Security)": 774,
-      "EC - Electronics & Communicati on Engineering": 1077,
-      "EE - Electrical & Electronics Engineering": 1866,
-      "ET - Electronics & Telecommu- nication Engineering": 1343,
-      "IM - Industrial Engineering & Management": 12328,
-      "ME - Mechanical Engineering": 5339
+      "AS - Aerospace Engineering": {
+        "r3": 3464,
+        "r4": 6429
+      },
+      "BT - Biotechnology": {
+        "r3": 14685,
+        "r4": 18883
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 649,
+        "r4": 890
+      },
+      "CH - Chemical Engineering": {
+        "r3": 11506,
+        "r4": 13038
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 713,
+        "r4": 975
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 542,
+        "r4": 692
+      },
+      "CV - Civil Engineering": {
+        "r3": 17969,
+        "r4": 20917
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 774,
+        "r4": 1091
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 1077,
+        "r4": 1399
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 1866,
+        "r4": 2424
+      },
+      "ET - Electronics & Telecommu- nication Engineering": {
+        "r3": 1343,
+        "r4": 1790
+      },
+      "IM - Industrial Engineering & Management": {
+        "r3": 12328,
+        "r4": 17533
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 5339,
+        "r4": 7032
+      }
     }
   },
   {
@@ -950,10 +1954,22 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 103540,
-      "CS - Computer Science & Engineering": 105648,
-      "EC - Electronics & Communicati on Engineering": 56779,
-      "IS - Information Science & Engineering": 92310
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 103540,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 105648,
+        "r4": 86038
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 56779,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 92310,
+        "r4": null
+      }
     }
   },
   {
@@ -969,10 +1985,22 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 72485,
-      "BM - Bio- Medical Engineering": 96470,
-      "CS - Computer Science & Engineering": 103272,
-      "EC - Electronics & Communicati on Engineering": 67192
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 72485,
+        "r4": null
+      },
+      "BM - Bio- Medical Engineering": {
+        "r3": 96470,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 103272,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 67192,
+        "r4": null
+      }
     }
   },
   {
@@ -988,14 +2016,38 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 34045,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 33681,
-      "CS - Computer Science & Engineering": 30222,
-      "CV - Civil Engineering": 92294,
-      "CY - Computer Science & Engineering (Cyber Security)": 35124,
-      "EC - Electronics & Communicati on Engineering": 40410,
-      "EE - Electrical & Electronics Engineering": 45507,
-      "ME - Mechanical Engineering": 57487
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 34045,
+        "r4": 48497
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 33681,
+        "r4": 46906
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 30222,
+        "r4": 42678
+      },
+      "CV - Civil Engineering": {
+        "r3": 92294,
+        "r4": null
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 35124,
+        "r4": 50778
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 40410,
+        "r4": 68546
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 45507,
+        "r4": 89917
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 57487,
+        "r4": 89591
+      }
     }
   },
   {
@@ -1011,11 +2063,26 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 55981,
-      "CD - Computer Science & Engineering (Data Science)": 62287,
-      "CS - Computer Science & Engineering": 53748,
-      "EC - Electronics & Communicati on Engineering": 109664,
-      "IS - Information Science & Engineering": 71438
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 55981,
+        "r4": 103454
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 62287,
+        "r4": 111065
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 53748,
+        "r4": 108764
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 109664,
+        "r4": 49351
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 71438,
+        "r4": 94373
+      }
     }
   },
   {
@@ -1024,9 +2091,18 @@
     "city": "Chikkaballapur",
     "category": "GM",
     "ranks": {
-      "AS - Aerospace Engineering": 110023,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 62272,
-      "CS - Computer Science & Engineering": 51440
+      "AS - Aerospace Engineering": {
+        "r3": 110023,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 62272,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 51440,
+        "r4": null
+      }
     }
   },
   {
@@ -1035,8 +2111,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 38473,
-      "CS - Computer Science & Engineering": 86597
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 38473,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 86597,
+        "r4": null
+      }
     }
   },
   {
@@ -1045,8 +2127,14 @@
     "city": "Belagavi",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 101776,
-      "CS - Computer Science & Engineering": 104814
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 101776,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 104814,
+        "r4": 86752
+      }
     }
   },
   {
@@ -1062,10 +2150,22 @@
     "city": "Mangaluru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 103600,
-      "CS - Computer Science & Engineering": 104962,
-      "IS - Information Science & Engineering": 102448,
-      "RA - Robotics & Automation": 55193
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 103600,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 104962,
+        "r4": 100034
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 102448,
+        "r4": null
+      },
+      "RA - Robotics & Automation": {
+        "r3": 55193,
+        "r4": null
+      }
     }
   },
   {
@@ -1074,9 +2174,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 110575,
-      "CS - Computer Science & Engineering": 107167,
-      "EC - Electronics & Communicati on Engineering": 33986
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 110575,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 107167,
+        "r4": 106788
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 33986,
+        "r4": null
+      }
     }
   },
   {
@@ -1085,7 +2194,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "ME - Mechanical Engineering": 90200
+      "ME - Mechanical Engineering": {
+        "r3": 90200,
+        "r4": null
+      }
     }
   },
   {
@@ -1094,10 +2206,22 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 103424,
-      "CS - Computer Science & Engineering": 110300,
-      "EC - Electronics & Communicati on Engineering": 88619,
-      "EE - Electrical & Electronics Engineering": 93840
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 103424,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110300,
+        "r4": 83561
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 88619,
+        "r4": 97031
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 93840,
+        "r4": null
+      }
     }
   },
   {
@@ -1106,14 +2230,38 @@
     "city": "Dharwad",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 55939,
-      "CH - Chemical Engineering": 88258,
-      "CS - Computer Science & Engineering": 49002,
-      "CV - Civil Engineering": 70309,
-      "EC - Electronics & Communicati on Engineering": 66979,
-      "EE - Electrical & Electronics Engineering": 107627,
-      "IS - Information Science & Engineering": 57018,
-      "ME - Mechanical Engineering": 109315
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 55939,
+        "r4": 75645
+      },
+      "CH - Chemical Engineering": {
+        "r3": 88258,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 49002,
+        "r4": 68774
+      },
+      "CV - Civil Engineering": {
+        "r3": 70309,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 66979,
+        "r4": 88474
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 107627,
+        "r4": 104133
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 57018,
+        "r4": 79990
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 109315,
+        "r4": null
+      }
     }
   },
   {
@@ -1122,8 +2270,18 @@
     "city": "Dakshina Kannada",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 77621,
-      "CS - Computer Science & Engineering": 89042
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 77621,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 89042,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": null,
+        "r4": 97963
+      }
     }
   },
   {
@@ -1146,7 +2304,10 @@
     "city": "Mangaluru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 81412
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 81412,
+        "r4": null
+      }
     }
   },
   {
@@ -1155,7 +2316,10 @@
     "city": "Udupi",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 62552
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 62552,
+        "r4": null
+      }
     }
   },
   {
@@ -1171,10 +2335,22 @@
     "city": "Tumakuru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 15983,
-      "CS - Computer Science & Engineering": 14939,
-      "EC - Electronics & Communicati on Engineering": 21476,
-      "IS - Information Science & Engineering": 18090
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 15983,
+        "r4": 20772
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 14939,
+        "r4": 19691
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 21476,
+        "r4": 35776
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 18090,
+        "r4": 27637
+      }
     }
   },
   {
@@ -1183,19 +2359,58 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 24120,
-      "BT - Bio- technology": 78926,
-      "CD - Computer Science & Engineering (Data Science)": 23926,
-      "CS - Computer Science & Engineering": 22026,
-      "CV - Civil Engineering": 110094,
-      "EC - Electronics & Communicati on Engineering": 34643,
-      "EE - Electrical & Electronics Engineering": 65232,
-      "ET - Electronics & Telecommu- nication Engineering": 52153,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 26568,
-      "IS - Information Science & Engineering": 30150,
-      "ME - Mechanical Engineering": 84225,
-      "RI - Robotics & Artificial Intelligence": 34662,
-      "UE - Electronics & Computer Engineering": 45918
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 24120,
+        "r4": 41674
+      },
+      "BT - Biotechnology": {
+        "r3": 78926,
+        "r4": 107254
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 23926,
+        "r4": 37806
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 22026,
+        "r4": 36563
+      },
+      "CV - Civil Engineering": {
+        "r3": 110094,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 34643,
+        "r4": 74763
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 65232,
+        "r4": 96996
+      },
+      "ET - Electronics & Telecommu- nication Engineering": {
+        "r3": 52153,
+        "r4": 78423
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 26568,
+        "r4": 47216
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 30150,
+        "r4": 53985
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 84225,
+        "r4": 106568
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 34662,
+        "r4": 73039
+      },
+      "UE - Electronics & Computer Engineering": {
+        "r3": 45918,
+        "r4": 102189
+      }
     }
   },
   {
@@ -1204,7 +2419,10 @@
     "city": "Chitradurga",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 86353
+      "CS - Computer Science & Engineering": {
+        "r3": 86353,
+        "r4": null
+      }
     }
   },
   {
@@ -1234,9 +2452,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CA - Computer Science & Engineering (Artificial Intelligence)": 80920,
-      "CS - Computer Science & Engineering": 109058,
-      "CY - Computer Science & Engineering (Cyber Security)": 106739
+      "CA - Computer Science & Engineering (Artificial Intelligence)": {
+        "r3": 80920,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 109058,
+        "r4": 35910
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 106739,
+        "r4": null
+      }
     }
   },
   {
@@ -1245,7 +2472,10 @@
     "city": "Mangaluru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 90025
+      "CS - Computer Science & Engineering": {
+        "r3": 90025,
+        "r4": null
+      }
     }
   },
   {
@@ -1254,8 +2484,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 97282,
-      "CS - Computer Science & Engineering": 106939
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 97282,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 106939,
+        "r4": null
+      }
     }
   },
   {
@@ -1264,9 +2500,18 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "EC - Electronics & Communicati on Engineering": 20308,
-      "EE - Electrical & Electronics Engineering": 23770,
-      "ME - Mechanical Engineering": 33516
+      "EC - Electronics & Communication Engineering": {
+        "r3": 20308,
+        "r4": 30072
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 23770,
+        "r4": 37414
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 33516,
+        "r4": 65094
+      }
     }
   },
   {
@@ -1289,9 +2534,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 110976,
-      "CD - Computer Science & Engineering (Data Science)": 87999,
-      "CS - Computer Science & Engineering": 109781
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 110976,
+        "r4": 75204
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 87999,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 109781,
+        "r4": 95627
+      }
     }
   },
   {
@@ -1300,8 +2554,14 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 106350,
-      "IS - Information Science & Engineering": 111279
+      "CS - Computer Science & Engineering": {
+        "r3": 106350,
+        "r4": 108452
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 111279,
+        "r4": null
+      }
     }
   },
   {
@@ -1310,12 +2570,30 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 64888,
-      "CS - Computer Science & Engineering": 82079,
-      "CV - Civil Engineering": 110523,
-      "EC - Electronics & Communicati on Engineering": 105161,
-      "EE - Electrical & Electronics Engineering": 84576,
-      "ME - Mechanical Engineering": 106778
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 64888,
+        "r4": 80591
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 82079,
+        "r4": 106778
+      },
+      "CV - Civil Engineering": {
+        "r3": 110523,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 105161,
+        "r4": 109543
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 84576,
+        "r4": 86250
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 106778,
+        "r4": null
+      }
     }
   },
   {
@@ -1331,8 +2609,14 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 99165,
-      "CS - Computer Science & Engineering": 105603
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 99165,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 105603,
+        "r4": null
+      }
     }
   },
   {
@@ -1341,8 +2625,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 88766,
-      "CS - Computer Science & Engineering": 109278
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 88766,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 109278,
+        "r4": 61663
+      }
     }
   },
   {
@@ -1365,11 +2655,26 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 105165,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 105955,
-      "CS - Computer Science & Engineering": 104072,
-      "CY - Computer Science & Engineering (Cyber Security)": 100037,
-      "ME - Mechanical Engineering": 21531
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 105165,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 105955,
+        "r4": 78588
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 104072,
+        "r4": 77553
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 100037,
+        "r4": null
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 21531,
+        "r4": null
+      }
     }
   },
   {
@@ -1378,14 +2683,38 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 34295,
-      "AG - Agricultural Engineering": 71914,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 27585,
-      "CIT - Computer Science & Information Technology": 39983,
-      "CV - Civil Engineering": 102529,
-      "EC - Electronics & Communicati on Engineering": 48305,
-      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": 42714,
-      "IS - Information Science & Engineering": 44161
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 34295,
+        "r4": 61900
+      },
+      "AG - Agricultural Engineering": {
+        "r3": 71914,
+        "r4": null
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 27585,
+        "r4": 44001
+      },
+      "CIT - Computer Science & Information Technology": {
+        "r3": 39983,
+        "r4": 71315
+      },
+      "CV - Civil Engineering": {
+        "r3": 102529,
+        "r4": 52607
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 48305,
+        "r4": 100240
+      },
+      "IC - Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": {
+        "r3": 42714,
+        "r4": 93248
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 44161,
+        "r4": 81333
+      }
     }
   },
   {
@@ -1394,19 +2723,58 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AS - Aerospace Engineering": 94827,
-      "BT - Bio- technology": 104355,
-      "CO - Computer Science & Engineering (IOT)": 80186,
-      "CS - Computer Science & Engineering": 42800,
-      "CSB - Computer Science & Engineering (Block Chain)": 109154,
-      "CSD - Computer Science & Technology (Devops)": 86640,
-      "CY - Computer Science & Engineering (Cyber Security)": 60538,
-      "EC - Electronics & Communicati on Engineering": 110448,
-      "EE - Electrical & Electronics Engineering": 61682,
-      "IAR - Information Technology (Augmented Reality and Virtual Reality (AR / VR)": 67223,
-      "IDA - Information Technology (Data Analytics)": 109750,
-      "INT - Information Technology": 71584,
-      "ME - Mechanical Engineering": 88403
+      "AS - Aerospace Engineering": {
+        "r3": 94827,
+        "r4": 75474
+      },
+      "BT - Biotechnology": {
+        "r3": 104355,
+        "r4": 104073
+      },
+      "CO - Computer Science & Engineering (IOT)": {
+        "r3": 80186,
+        "r4": 48973
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 42800,
+        "r4": 110415
+      },
+      "CSB - Computer Science & Engineering (Block Chain)": {
+        "r3": 109154,
+        "r4": null
+      },
+      "CSD - Computer Science & Technology (Devops)": {
+        "r3": 86640,
+        "r4": null
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 60538,
+        "r4": 106533
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 110448,
+        "r4": 85976
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 61682,
+        "r4": null
+      },
+      "IAR - Information Technology (Augmented Reality and Virtual Reality (AR / VR)": {
+        "r3": 67223,
+        "r4": null
+      },
+      "IDA - Information Technology (Data Analytics)": {
+        "r3": 109750,
+        "r4": null
+      },
+      "INT - Information Technology": {
+        "r3": 71584,
+        "r4": 75155
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 88403,
+        "r4": null
+      }
     }
   },
   {
@@ -1415,15 +2783,42 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 24435,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 21709,
-      "CS - Computer Science & Engineering": 20658,
-      "CY - Computer Science & Engineering (Cyber Security)": 24121,
-      "EC - Electronics & Communicati on Engineering": 37265,
-      "ECE - Electrical & Computer Engineering": 99933,
-      "ME - Mechanical Engineering": 95156,
-      "RI - Robotics & Artificial Intelligence": 29322,
-      "VL - Electronics Engineering (VLSI Design & Technology)": 81522
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 24435,
+        "r4": 53533
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 21709,
+        "r4": 38125
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 20658,
+        "r4": 32484
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 24121,
+        "r4": 56380
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 37265,
+        "r4": 75265
+      },
+      "ECE - Electrical & Computer Engineering": {
+        "r3": 99933,
+        "r4": 99933
+      },
+      "ME - Mechanical Engineering": {
+        "r3": 95156,
+        "r4": null
+      },
+      "RI - Robotics & Artificial Intelligence": {
+        "r3": 29322,
+        "r4": 86220
+      },
+      "VL - Electronics Engineering (VLSI Design & Technology)": {
+        "r3": 81522,
+        "r4": null
+      }
     }
   },
   {
@@ -1439,20 +2834,62 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CBD - Computer Science & Technology (Big Data)": 75355,
-      "CD - Computer Science & Engineering (Data Science)": 75286,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 58354,
-      "CO - Computer Science & Engineering (IOT)": 79721,
-      "CS - Computer Science & Engineering": 46905,
-      "CSB - Computer Science & Engineering (Block Chain)": 85739,
-      "CSD - Computer Science & Technology (Devops)": 86348,
-      "CV - Civil Engineering": 104478,
-      "CY - Computer Science & Engineering (Cyber Security)": 76298,
-      "EC - Electronics & Communicati on Engineering": 111665,
-      "EE - Electrical & Electronics Engineering": 97479,
-      "IS - Information Science & Engineering": 75506,
-      "IST - Information Science & Technology": 107866,
-      "VLS - VLSI": 89941
+      "CBD - Computer Science & Technology (Big Data)": {
+        "r3": 75355,
+        "r4": 68743
+      },
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 75286,
+        "r4": 102072
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 58354,
+        "r4": 108990
+      },
+      "CO - Computer Science & Engineering (IOT)": {
+        "r3": 79721,
+        "r4": 107590
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 46905,
+        "r4": 108926
+      },
+      "CSB - Computer Science & Engineering (Block Chain)": {
+        "r3": 85739,
+        "r4": null
+      },
+      "CSD - Computer Science & Technology (Devops)": {
+        "r3": 86348,
+        "r4": 60930
+      },
+      "CV - Civil Engineering": {
+        "r3": 104478,
+        "r4": null
+      },
+      "CY - Computer Science & Engineering (Cyber Security)": {
+        "r3": 76298,
+        "r4": 82366
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 111665,
+        "r4": null
+      },
+      "EE - Electrical & Electronics Engineering": {
+        "r3": 97479,
+        "r4": null
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 75506,
+        "r4": 51906
+      },
+      "IST - Information Science & Technology": {
+        "r3": 107866,
+        "r4": null
+      },
+      "VLS - VLSI": {
+        "r3": 89941,
+        "r4": null
+      }
     }
   },
   {
@@ -1468,13 +2905,34 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 55912,
-      "CE - Computer Engineering": 87610,
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 47545,
-      "CN - Computer Science & Technology": 75437,
-      "CS - Computer Science & Engineering": 57965,
-      "EC - Electronics & Communicati on Engineering": 66541,
-      "INT - Information Technology": 98024
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 55912,
+        "r4": 103547
+      },
+      "CE - Computer Engineering": {
+        "r3": 87610,
+        "r4": 79385
+      },
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 47545,
+        "r4": 103021
+      },
+      "CN - Computer Science & Technology": {
+        "r3": 75437,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 57965,
+        "r4": 109536
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 66541,
+        "r4": 69337
+      },
+      "INT - Information Technology": {
+        "r3": 98024,
+        "r4": null
+      }
     }
   },
   {
@@ -1483,7 +2941,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "BD - Bachelor of Design": 44061
+      "BD - Bachelor of Design": {
+        "r3": 44061,
+        "r4": null
+      }
     }
   },
   {
@@ -1492,9 +2953,18 @@
     "city": "Hubballi",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 108652,
-      "CS - Computer Science & Engineering": 99653,
-      "EC - Electronics & Communicati on Engineering": 89005
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 108652,
+        "r4": 108652
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 99653,
+        "r4": 91832
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 89005,
+        "r4": 89005
+      }
     }
   },
   {
@@ -1503,7 +2973,10 @@
     "city": "Hassan",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 95782
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 95782,
+        "r4": null
+      }
     }
   },
   {
@@ -1512,9 +2985,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AVE - Automotive Engineering": 47146,
-      "CV - Civil Engineering": 68875,
-      "IS - Information Science & Engineering": 25525
+      "AVE - Automotive Engineering": {
+        "r3": 47146,
+        "r4": 61634
+      },
+      "CV - Civil Engineering": {
+        "r3": 68875,
+        "r4": 109381
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 25525,
+        "r4": 39103
+      }
     }
   },
   {
@@ -1523,9 +3005,18 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": 15849,
-      "CS - Computer Science & Engineering": 14773,
-      "EC - Electronics & Communicati on Engineering": 18473
+      "CI - Computer Science & Engineering (Artificial Intelligence & Machine Learning)": {
+        "r3": 15849,
+        "r4": 24673
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 14773,
+        "r4": 21189
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 18473,
+        "r4": 25588
+      }
     }
   },
   {
@@ -1555,8 +3046,14 @@
     "city": "Bengaluru  Rural",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 81494,
-      "CS - Computer Science & Engineering": 110891
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 81494,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 110891,
+        "r4": null
+      }
     }
   },
   {
@@ -1572,7 +3069,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 40289
+      "CS - Computer Science & Engineering": {
+        "r3": 40289,
+        "r4": null
+      }
     }
   },
   {
@@ -1588,11 +3088,26 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 108945,
-      "AI - Artificial Intelligence & Machine Learning": 96926,
-      "CG - Computer Science & Design": 70313,
-      "CS - Computer Science & Engineering": 100335,
-      "IS - Information Science & Engineering": 89272
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 108945,
+        "r4": 106934
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 96926,
+        "r4": 93228
+      },
+      "CG - Computer Science & Design": {
+        "r3": 70313,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 100335,
+        "r4": 90133
+      },
+      "IS - Information Science & Engineering": {
+        "r3": 89272,
+        "r4": null
+      }
     }
   },
   {
@@ -1608,8 +3123,14 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AD - Artificial Intelligence & Data Science": 90966,
-      "AI - Artificial Intelligence & Machine Learning": 107173
+      "AD - Artificial Intelligence & Data Science": {
+        "r3": 90966,
+        "r4": null
+      },
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 107173,
+        "r4": null
+      }
     }
   },
   {
@@ -1618,7 +3139,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "AL - Agriculture Engineering Course": 93611
+      "AL - Agriculture Engineering Course": {
+        "r3": 93611,
+        "r4": null
+      }
     }
   },
   {
@@ -1627,9 +3151,18 @@
     "city": "Mysuru",
     "category": "GM",
     "ranks": {
-      "AI - Artificial Intelligence & Machine Learning": 104925,
-      "CS - Computer Science & Engineering": 102501,
-      "EC - Electronics & Communicati on Engineering": 105585
+      "AI - Artificial Intelligence & Machine Learning": {
+        "r3": 104925,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 102501,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 105585,
+        "r4": null
+      }
     }
   },
   {
@@ -1638,7 +3171,10 @@
     "city": "Tumakuru",
     "category": "GM",
     "ranks": {
-      "CS - Computer Science & Engineering": 61878
+      "CS - Computer Science & Engineering": {
+        "r3": 61878,
+        "r4": null
+      }
     }
   },
   {
@@ -1654,7 +3190,10 @@
     "city": "Bengaluru",
     "category": "GM",
     "ranks": {
-      "CAD - Computer Science & Engineering (Artificial Intelligence & Data Science)": 94868
+      "CAD - Computer Science & Engineering (Artificial Intelligence & Data Science)": {
+        "r3": 94868,
+        "r4": null
+      }
     }
   },
   {
@@ -1663,9 +3202,18 @@
     "city": "Bangalore Rural",
     "category": "GM",
     "ranks": {
-      "CD - Computer Science & Engineering (Data Science)": 85336,
-      "CS - Computer Science & Engineering": 80960,
-      "EC - Electronics & Communicati on Engineering": 110173
+      "CD - Computer Science & Engineering (Data Science)": {
+        "r3": 85336,
+        "r4": null
+      },
+      "CS - Computer Science & Engineering": {
+        "r3": 80960,
+        "r4": null
+      },
+      "EC - Electronics & Communication Engineering": {
+        "r3": 110173,
+        "r4": null
+      }
     }
   }
 ]

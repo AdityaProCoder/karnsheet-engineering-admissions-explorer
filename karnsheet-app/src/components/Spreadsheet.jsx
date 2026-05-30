@@ -26,7 +26,9 @@ export default function Spreadsheet({
   const [selectedCell, setSelectedCell] = useState(null); // { collegeCode, branch }
   const [editingCell, setEditingCell] = useState(null); // { collegeCode, branch }
   const [editValue, setEditValue] = useState('');
-  const [formulaValue, setFormulaValue] = useState('');
+  const [formulaValueR3, setFormulaValueR3] = useState('');
+  const [formulaValueR4, setFormulaValueR4] = useState('');
+  const [displayRound, setDisplayRound] = useState('both'); // 'both' | 'r3' | 'r4'
 
   // Column Visibility Panel State
   const [showColFilter, setShowColFilter] = useState(false);
@@ -103,14 +105,21 @@ export default function Spreadsheet({
   // Synchronize Formula values when selection changes
   useEffect(() => {
     if (selectedCell && selectedCollegeObj) {
-      const val = selectedCollegeObj.ranks[selectedCell.branch] || '';
-      setFormulaValue(val);
-      setEditValue(val);
+      const rankObj = selectedCollegeObj.ranks[selectedCell.branch] || { r3: null, r4: null };
+      setFormulaValueR3(rankObj.r3 !== null ? rankObj.r3 : '');
+      setFormulaValueR4(rankObj.r4 !== null ? rankObj.r4 : '');
+      // Keep editValue in sync (e.g. edit the active display round, or R4 by default)
+      if (displayRound === 'r3') {
+        setEditValue(rankObj.r3 !== null ? rankObj.r3 : '');
+      } else {
+        setEditValue(rankObj.r4 !== null ? rankObj.r4 : '');
+      }
     } else {
-      setFormulaValue('');
+      setFormulaValueR3('');
+      setFormulaValueR4('');
       setEditValue('');
     }
-  }, [selectedCell, selectedCollegeObj]);
+  }, [selectedCell, selectedCollegeObj, displayRound]);
 
   // Handle cell click selection
   const handleCellClick = (collegeCode, branch) => {
@@ -123,7 +132,8 @@ export default function Spreadsheet({
     setSelectedCell({ collegeCode, branch });
     setEditingCell({ collegeCode, branch });
     const college = currentData.find(c => c.code === collegeCode);
-    const val = college ? college.ranks[branch] || '' : '';
+    const rankObj = college ? college.ranks[branch] || { r3: null, r4: null } : { r3: null, r4: null };
+    const val = displayRound === 'r3' ? (rankObj.r3 !== null ? rankObj.r3 : '') : (rankObj.r4 !== null ? rankObj.r4 : '');
     setEditValue(val);
   };
 
@@ -132,19 +142,25 @@ export default function Spreadsheet({
     if (editingCell) {
       const numVal = editValue === '' ? null : parseInt(editValue, 10);
       if (numVal === null || !isNaN(numVal)) {
-        onCellEdit(editingCell.collegeCode, editingCell.branch, numVal);
+        const editRound = displayRound === 'r3' ? 'r3' : 'r4';
+        onCellEdit(editingCell.collegeCode, editingCell.branch, editRound, numVal);
       }
       setEditingCell(null);
     }
   };
 
   // Save formula bar edit
-  const saveFormulaEdit = (val) => {
-    setFormulaValue(val);
+  const saveFormulaEdit = (roundType, val) => {
+    if (roundType === 'r3') {
+      setFormulaValueR3(val);
+    } else {
+      setFormulaValueR4(val);
+    }
+    
     if (selectedCell) {
       const numVal = val === '' ? null : parseInt(val, 10);
       if (numVal === null || !isNaN(numVal)) {
-        onCellEdit(selectedCell.collegeCode, selectedCell.branch, numVal);
+        onCellEdit(selectedCell.collegeCode, selectedCell.branch, roundType, numVal);
       }
     }
   };
@@ -311,6 +327,34 @@ export default function Spreadsheet({
           </div>
 
           <div className="toolbar-container">
+            {/* Segmented display round selector */}
+            <div style={{ display: 'flex', background: 'var(--bg-secondary)', padding: '2px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', gap: '2px' }}>
+              <button 
+                type="button"
+                className={`btn ${displayRound === 'both' ? 'btn-active-emerald' : 'btn-secondary'}`}
+                style={{ padding: '6px 12px', fontSize: '11px', borderRadius: 'var(--radius-sm)', border: 'none' }}
+                onClick={() => setDisplayRound('both')}
+              >
+                R3 & R4 Compare
+              </button>
+              <button 
+                type="button"
+                className={`btn ${displayRound === 'r3' ? 'btn-active-emerald' : 'btn-secondary'}`}
+                style={{ padding: '6px 12px', fontSize: '11px', borderRadius: 'var(--radius-sm)', border: 'none' }}
+                onClick={() => setDisplayRound('r3')}
+              >
+                Round 3
+              </button>
+              <button 
+                type="button"
+                className={`btn ${displayRound === 'r4' ? 'btn-active-emerald' : 'btn-secondary'}`}
+                style={{ padding: '6px 12px', fontSize: '11px', borderRadius: 'var(--radius-sm)', border: 'none' }}
+                onClick={() => setDisplayRound('r4')}
+              >
+                Round 4
+              </button>
+            </div>
+
             <button 
               className={`btn btn-secondary ${showColFilter ? 'btn-active-emerald' : ''}`}
               onClick={() => setShowColFilter(!showColFilter)}
@@ -377,14 +421,42 @@ export default function Spreadsheet({
           {selectedCell ? `${selectedCell.branch.split(' - ')[0]} : ${selectedCell.collegeCode}` : 'None'}
         </div>
         <div className="formula-fx">fx</div>
-        <input 
-          type="text" 
-          className="formula-input"
-          placeholder={selectedCell ? "Enter cutoff rank value..." : "Select any cell in the table to display and edit its value"}
-          disabled={!selectedCell}
-          value={formulaValue}
-          onChange={(e) => saveFormulaEdit(e.target.value)}
-        />
+        
+        {selectedCell ? (
+          <div style={{ display: 'flex', gap: '12px', flex: 1, alignItems: 'center' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700 }}>R3:</span>
+              <input 
+                type="number" 
+                className="formula-input"
+                style={{ width: '110px', height: '28px', padding: '0 8px', fontSize: '12px', background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)' }}
+                placeholder="R3 Cutoff"
+                value={formulaValueR3}
+                onChange={(e) => saveFormulaEdit('r3', e.target.value)}
+              />
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span style={{ fontSize: '11px', color: 'var(--accent-sky)', fontWeight: 700 }}>R4:</span>
+              <input 
+                type="number" 
+                className="formula-input"
+                style={{ width: '110px', height: '28px', padding: '0 8px', fontSize: '12px', background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-sm)' }}
+                placeholder="R4 Cutoff"
+                value={formulaValueR4}
+                onChange={(e) => saveFormulaEdit('r4', e.target.value)}
+              />
+            </div>
+          </div>
+        ) : (
+          <input 
+            type="text" 
+            className="formula-input"
+            placeholder="Select any cell in the table to display and edit its value"
+            disabled
+            value=""
+            onChange={() => {}}
+          />
+        )}
         
         {/* Save seat to preference list button */}
         {selectedCell && selectedCollegeObj && selectedCollegeObj.ranks[selectedCell.branch] && (
@@ -393,7 +465,7 @@ export default function Spreadsheet({
             style={{ padding: '6px 12px', fontSize: '11px', display: 'flex', gap: '4px' }}
             onClick={() => {
               const rank = selectedCollegeObj.ranks[selectedCell.branch];
-              onAddPreference(selectedCollegeObj.name, selectedCell.collegeCode, selectedCell.branch, rank);
+              onAddPreference(selectedCollegeObj.name, selectedCell.collegeCode, selectedCell.branch, rank.r3, rank.r4);
             }}
             disabled={isSeatSaved(selectedCell.collegeCode, selectedCell.branch)}
           >
@@ -485,12 +557,14 @@ export default function Spreadsheet({
                         
                         // Heatmap cell styling based on rank thresholds (Green is highly competitive, lighter/faded is easier)
                         let heatStyle = {};
-                        if (rankVal) {
-                          if (rankVal < 10000) {
+                        const rankValObj = rankVal || { r3: null, r4: null };
+                        const primaryRank = displayRound === 'r3' ? rankValObj.r3 : (rankValObj.r4 || rankValObj.r3);
+                        if (primaryRank) {
+                          if (primaryRank < 10000) {
                             heatStyle = { backgroundColor: 'rgba(5, 150, 105, 0.12)', color: 'var(--accent-emerald-heavy)' };
-                          } else if (rankVal < 30000) {
+                          } else if (primaryRank < 30000) {
                             heatStyle = { backgroundColor: 'rgba(2, 132, 199, 0.08)', color: 'var(--accent-sky-heavy)' };
-                          } else if (rankVal < 60000) {
+                          } else if (primaryRank < 60000) {
                             heatStyle = { backgroundColor: 'rgba(217, 119, 6, 0.06)', color: 'var(--accent-amber-heavy)' };
                           } else {
                             heatStyle = { backgroundColor: 'var(--bg-primary)', color: 'var(--text-secondary)' };
@@ -519,7 +593,24 @@ export default function Spreadsheet({
                                 }}
                               />
                             ) : (
-                              rankVal ? rankVal.toLocaleString() : '-'
+                              displayRound === 'both' ? (
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', padding: '2px 4px', fontSize: '10px', textAlign: 'right' }}>
+                                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: '8px', opacity: 0.8 }}>
+                                    <span style={{ fontSize: '7.5px', fontWeight: 600, color: 'var(--text-muted)' }}>R3</span>
+                                    <span style={{ fontWeight: 600 }}>{rankValObj.r3 !== null ? rankValObj.r3.toLocaleString() : '-'}</span>
+                                  </div>
+                                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: '8px', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '2px' }}>
+                                    <span style={{ fontSize: '7.5px', fontWeight: 700, color: 'var(--accent-sky)' }}>R4</span>
+                                    <span style={{ fontWeight: 700 }}>{rankValObj.r4 !== null ? rankValObj.r4.toLocaleString() : '-'}</span>
+                                  </div>
+                                </div>
+                              ) : (
+                                displayRound === 'r3' ? (
+                                  rankValObj.r3 !== null ? rankValObj.r3.toLocaleString() : '-'
+                                ) : (
+                                  rankValObj.r4 !== null ? rankValObj.r4.toLocaleString() : '-'
+                                )
+                              )
                             )}
                           </td>
                         );

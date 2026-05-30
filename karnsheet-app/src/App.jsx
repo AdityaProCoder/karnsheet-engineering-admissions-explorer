@@ -82,11 +82,18 @@ export default function App() {
   };
 
   // Handler: Edit cell cutoff value
-  const handleCellEdit = (collegeCode, branchName, newValue) => {
+  const handleCellEdit = (collegeCode, branchName, roundType, newValue) => {
     setCurrentData(prevData => {
       return prevData.map(college => {
         if (college.code === collegeCode) {
-          const updatedRanks = { ...college.ranks, [branchName]: newValue };
+          const currentRankObj = college.ranks[branchName] || { r3: null, r4: null };
+          const updatedRanks = { 
+            ...college.ranks, 
+            [branchName]: {
+              ...currentRankObj,
+              [roundType]: newValue
+            }
+          };
           return { ...college, ranks: updatedRanks };
         }
         return college;
@@ -108,7 +115,7 @@ export default function App() {
   };
 
   // Handler: Add to saved counseling choices
-  const handleAddPreference = (collegeName, collegeCode, branchName, rank) => {
+  const handleAddPreference = (collegeName, collegeCode, branchName, cutoffR3, cutoffR4) => {
     // Check duplication
     const duplicate = savedPreferences.some(pref => pref.code === collegeCode && pref.branch === branchName);
     if (duplicate) {
@@ -120,7 +127,8 @@ export default function App() {
       name: collegeName,
       code: collegeCode,
       branch: branchName,
-      cutoff: rank
+      cutoffR3: cutoffR3,
+      cutoffR4: cutoffR4
     };
 
     setSavedPreferences(prev => [...prev, newPref]);

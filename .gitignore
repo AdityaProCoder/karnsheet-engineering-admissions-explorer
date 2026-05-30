@@ -22,7 +22,10 @@ npm-debug.log*
 # Non-essential local scripts and files
 convert.py
 csv_to_json.py
+convert_r4.py
+merge_rounds.py
 *.pdf
 *.html
+
 
 
